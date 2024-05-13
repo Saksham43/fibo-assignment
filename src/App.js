@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './pages/Home';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <Home/>
+    // <TodoList />
   );
 }
 

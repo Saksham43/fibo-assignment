@@ -1,0 +1,187 @@
+.homePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 30px;
+}
+
+/* PBAR */
+
+.pBar{
+    background: radial-gradient(76.6% 1399.07% at 85.71% 100%, #0E77D9 0%, #7DA7CE 100%);
+    border-radius: 16px;
+    width: 312px;
+    height: 78px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-pBar{
+    width: 48.02px;
+    height: 47.68px;
+    top: 12.64px;
+    left: 17px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.pBar-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    padding-top: 3px;
+}
+
+.pBar p{
+    font-family: DM Sans;
+    /* font-size: 14px; */
+    /* font-weight: 700; */
+    line-height: 15.55px;
+    /* text-align: left; */
+    color: rgba(255, 255, 255, 1);
+}
+
+.p1-pBar{
+    font-weight: 700;
+    font-size: 14px;
+}
+.p2-pBar{
+    font-weight: 200;
+    font-size: 12px;
+}
+.percent-pBar{
+    font-size: 10px;
+    font-weight: 200;
+    text-align: right;
+}
+
+/* PBAR */
+
+/* GOALS */
+
+.goals{
+    width: 312px;
+}
+
+.heading-goals{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heading-goals p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.83px;
+    text-align: left;
+    color: rgba(235, 233, 232, 1);
+}
+
+.tasks-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.task{
+    width: 312px;
+    height: 65px;
+    gap: 0px;
+    border-radius: 12px;
+    border: 0.97px;
+    opacity: 0px;
+    border: 0.97px solid rgba(40, 40, 40, 1);
+    background-color: rgba(40, 40, 40, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.iconAndTask{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.task-desc{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.83px;
+    text-align: left;
+    color: #EBE9E8;
+
+}
+
+/* GOALS */
+
+/* TRACKALL */
+
+.trackAll{
+    width: 312px;
+    height: 50px;
+    border-radius: 38.03px;
+    background-color: #D15439;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4.66px;
+    padding-right: 4.66px;
+}
+
+.track-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(223.1deg, #E1DFE3 17.36%, #FAF6FF 80.35%);
+}
+
+.track-icon p{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12.19px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #D15439;
+}
+
+.text-trackAll{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: white;
+
+}
+
+.arrows{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #FAF6FF80;
+}
+
+.arrow2{
+    opacity: 50%;
+}
+
+.arrow1{
+    opacity: 18%;
+}
+/* TRACKALL */
