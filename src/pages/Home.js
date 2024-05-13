@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import circle from "../assets/circle-blue.png";
 import { IoCheckbox } from "react-icons/io5";
-import TodoList from '../components/TodoList';
 import { tasks } from "../utils/data";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   
@@ -60,7 +60,7 @@ const Home = () => {
         </div>
       </div>
       
-      <div className='trackAll'>
+      <Link to="/page2" className='trackAll'>
         <div className='track-icon'>
           <p>Track</p>
         </div>
@@ -68,7 +68,7 @@ const Home = () => {
         <div className='arrows'>
           <p className='arrow1'>{`>`}</p><p className='arrow2'>{`>`}</p><p className='arrow3'>{`>`}</p>
         </div>
-      </div>
+      </Link>
       
       <div className='Graph'>
 
